@@ -9,3 +9,11 @@ main {
   font-family: "playfair-display", "serif";
   letter-spacing: 2px;
 }
+.link {
+  text-decoration: none;
+  color: #258;
+}
+.link:hover {
+  text-decoration: underline;
+  color: var(--blue-gray-color--hover);
+}

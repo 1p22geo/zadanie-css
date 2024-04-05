@@ -1,0 +1,8 @@
+.hlist--social .hlist-item-thumbnail > img {
+  height: 40px;
+  width: auto;
+  border-radius: 0px;
+}
+.hlist--social .hlist-item:hover .hlist-item-thumbnail > img {
+  outline: none;
+}
