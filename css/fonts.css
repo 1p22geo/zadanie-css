@@ -2,3 +2,11 @@
   font-family: "playfair-display";
   src: url("../media/ttf/PlayfairDisplay-Regular.ttf");
 }
+@font-face {
+  font-family: "genos-light";
+  src: url("../media/ttf/Genos-Light.ttf");
+}
+@font-face {
+  font-family: "genos-bold-italic";
+  src: url("../media/ttf/Genos-BoldItalic.ttf");
+}
