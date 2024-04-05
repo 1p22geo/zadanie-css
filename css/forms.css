@@ -9,14 +9,14 @@
   place-content: stretch;
   height: 50px;
   grid-template-columns: 200px auto;
-  grid-template-rows:45px 5px;
+  grid-template-rows: 45px 5px;
 }
 .form .form-control--wide {
   height: 500px;
-  grid-template-rows:495px 5px;
+  grid-template-rows: 495px 5px;
 }
 .form-control-accent {
-  grid-column:1/-1;
+  grid-column: 1/-1;
   height: 5px;
   z-index: -10;
   background: var(--blue-gray-color);
@@ -54,10 +54,10 @@
   margin-right: 16px;
 }
 
-.form-submit{
+.form-submit {
   background: var(--main-color);
   font-family: "genos-light", "sans-serif", "system-ui";
   font-size: 32px;
   padding: 8px;
-    cursor: pointer;
+  cursor: pointer;
 }
