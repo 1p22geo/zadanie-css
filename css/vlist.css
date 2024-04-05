@@ -1,0 +1,27 @@
+.vlist {
+  margin: 4px;
+  margin-top: 32px;
+}
+.vlist-inner-wrapper {
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.vlist-item-wrapper:hover {
+  background: var(--blue-gray-color--hover);
+}
+.vlist-item-wrapper {
+  background: var(--blue-gray-color);
+  padding: 8px;
+  border-top: 2px solid #268;
+}
+.vlist-item-wrapper:nth-child(1) {
+  border-top: none;
+}
+.vlist-item{
+  font-weight:900;
+  cursor: pointer;
+}
+.vlist-item-description{
+  font-weight:400;
+}

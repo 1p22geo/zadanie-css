@@ -1,0 +1,33 @@
+.article {
+  display: grid;
+  max-width: 1200px;
+  margin: 16px;
+  font-family: "genos-light", "sans-serif", "system-ui";
+}
+.article:nth-child(2n) {
+  grid-template-columns: 40fr 60fr;
+}
+.article:nth-child(2n + 1) {
+  grid-template-columns: 60fr 40fr;
+}
+.article:nth-child(2n + 1) > .article-content {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.article:nth-child(2n + 1) > .article-title {
+  grid-column: 2/3;
+}
+.article-title {
+  padding: 1rem;
+}
+.article-name {
+  font-family: "playfair-display", "serif";
+  font-size: 2rem;
+}
+.article-subtitle {
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+.article-content {
+  font-size: 24px;
+}

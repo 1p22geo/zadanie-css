@@ -2,5 +2,7 @@
   margin: 0;
   padding: 0;
   --main-color: #00a1ff;
+  --blue-gray-color: #a5c0dd;
+  --blue-gray-color--hover: #a0b0c0;
   --white-color: #eeffff;
 }

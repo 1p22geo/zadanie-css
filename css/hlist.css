@@ -1,0 +1,23 @@
+.hlist-inner-wrapper {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 16px;
+}
+.hlist-item-thumbnail > img {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1000000px;
+}
+.hlist-item-content {
+  font-family: "genos-light", "sans-serif", "system-ui";
+  text-align: center;
+}
+.hlist-item {
+  cursor: pointer;
+}
+.hlist-item:hover .hlist-item-thumbnail > img {
+  outline: 10px solid var(--main-color);
+}
