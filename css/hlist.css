@@ -17,6 +17,8 @@
 }
 .hlist-item {
   cursor: pointer;
+  color: #000;
+  text-decoration: none;
 }
 .hlist-item:hover .hlist-item-thumbnail > img {
   outline: 10px solid var(--main-color);

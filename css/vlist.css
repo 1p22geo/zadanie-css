@@ -18,10 +18,10 @@
 .vlist-item-wrapper:nth-child(1) {
   border-top: none;
 }
-.vlist-item{
-  font-weight:900;
+.vlist-item {
+  font-weight: 900;
   cursor: pointer;
 }
-.vlist-item-description{
-  font-weight:400;
+.vlist-item-description {
+  font-weight: 400;
 }
