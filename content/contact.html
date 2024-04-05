@@ -11,6 +11,7 @@
     <link href="../css/header.css" rel="stylesheet" />
     <link href="../css/hlist.css" rel="stylesheet" />
     <link href="../css/social.css" rel="stylesheet" />
+    <link href="../css/forms.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
@@ -25,7 +26,9 @@
     </header>
     <main class="main">
       <h2 class="content-heading" id="header">Linki do kontaktu</h2>
-      <h3 class="content-heading" id="header">oraz informacje które mogą być potrzebne</h3>
+      <h3 class="content-heading" id="header">
+        oraz informacje które mogą być potrzebne
+      </h3>
       <article class="article">
         <section class="article-title">
           <h2 class="article-name">Możesz mi wysłać maila</h2>
@@ -68,13 +71,129 @@
                   </section>
                 </a>
               </li>
-
             </ul>
           </article>
         </section>
       </article>
       <h2 class="content-heading" id="header">Formularz kontaktowy</h2>
-      <form class="contact-form main"></form>
+      <form class="form main">
+        <article class="article">
+          <section class="article-title">
+            <h2 class="article-name">Podstawowe informacje</h2>
+            <h3 class="article-subtitle">
+              Chciałbym wiedzieć z kim mam do czynienia
+            </h3>
+          </section>
+          <section class="article-content">
+            <div class="form-control">
+              <label class="form-label" for="imie">
+                <p class="form-label-inner-wrapper">Imię:</p>
+              </label>
+              <input class="form-input" name="imie" id="imie" />
+              <div class="form-control-accent"></div>
+            </div>
+            <div class="form-control">
+              <label class="form-label" for="nazwisko">
+                <p class="form-label-inner-wrapper">Nazwisko:</p>
+              </label>
+              <input class="form-input" name="nazwisko" id="nazwisko" />
+              <div class="form-control-accent"></div>
+            </div>
+            <div class="form-control">
+              <label class="form-label" for="nazwisko">
+                <p class="form-label-inner-wrapper">Płeć:</p>
+              </label>
+              <div class="form-radiolist">
+                <input
+                  class="form-radio"
+                  type="radio"
+                  name="plec"
+                  value="M"
+                  id="M"
+                />
+                <label class="form-label" for="M">
+                  <p class="form-label-inner-wrapper">Mężczyzna</p>
+                </label>
+                <input
+                  class="form-radio"
+                  type="radio"
+                  name="plec"
+                  value="K"
+                  id="K"
+                />
+                <label class="form-label" for="K">
+                  <p class="form-label-inner-wrapper">Kobieta</p>
+                </label>
+                <input
+                  class="form-radio"
+                  type="radio"
+                  name="plec"
+                  value="X"
+                  id="X"
+                />
+                <label class="form-label" for="X">
+                  <p class="form-label-inner-wrapper">Inne</p>
+                </label>
+              </div>
+              <div class="form-control-accent"></div>
+            </div>
+          </section>
+        </article>
+        <article class="article">
+          <section class="article-title">
+            <h2 class="article-name">Kontakt zwrotny</h2>
+            <h3 class="article-subtitle">Jak się mogę dostać z powrotem</h3>
+          </section>
+          <section class="article-content">
+            <div class="form-control">
+              <label class="form-label" for="email">
+                <p class="form-label-inner-wrapper">Adres e-mail:</p>
+              </label>
+              <input class="form-input" name="email" id="email" type="email" />
+              <div class="form-control-accent"></div>
+            </div>
+            <div class="form-control">
+              <label class="form-label" for="gpg">
+                <p class="form-label-inner-wrapper">Klucz publiczny</p>
+              </label>
+              <input class="form-input" name="gpg" id="gpg" type="file"/>
+              <div class="form-control-accent"></div>
+            </div>
+          </section>
+        </article>
+        <article class="article">
+          <section class="article-title">
+            <h2 class="article-name">Wiadomość</h2>
+            <h3 class="article-subtitle">Co próbujesz mi przekazać</h3>
+          </section>
+          <section class="article-content">
+            <div class="form-control">
+              <label class="form-label" for="title">
+                <p class="form-label-inner-wrapper">Tytuł:</p>
+              </label>
+              <input class="form-input" name="title" id="title" />
+              <div class="form-control-accent"></div>
+            </div>
+            <div class="form-control form-control--wide">
+              <label class="form-label" for="content">
+                <p class="form-label-inner-wrapper">Treść:</p>
+              </label>
+              <textarea class="form-input" name="content" id="content"></textarea>
+              <div class="form-control-accent"></div>
+            </div>
+
+            <div class="form-control">
+              <label class="form-label" for="attach">
+                <p class="form-label-inner-wrapper">Załączniki</p>
+              </label>
+              <input class="form-input" name="attach" id="attach" type="file" multiple="true" />
+              <div class="form-control-accent"></div>
+            </div>
+          </section>
+        </article>
+
+        <input type="submit" value="Wyślij formularz... donikąd" class="form-submit">
+      </form>
     </main>
   </body>
 </html>

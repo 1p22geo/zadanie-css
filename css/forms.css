@@ -1,0 +1,63 @@
+.form .form-input {
+  padding: 8px;
+  font-family: "genos-light", "sans-serif", "system-ui";
+  font-size: 24px;
+}
+.form .form-control {
+  display: grid;
+  align-items: stretch;
+  place-content: stretch;
+  height: 50px;
+  grid-template-columns: 200px auto;
+  grid-template-rows:45px 5px;
+}
+.form .form-control--wide {
+  height: 500px;
+  grid-template-rows:495px 5px;
+}
+.form-control-accent {
+  grid-column:1/-1;
+  height: 5px;
+  z-index: -10;
+  background: var(--blue-gray-color);
+}
+.form .form-control:has(.form-input:focus) input {
+  background: var(--blue-gray-color);
+}
+.form .form-control:has(.form-input:focus) .form-control-accent {
+  transition: border-bottom 200ms;
+  height: 50px;
+  margin-top: -50px;
+}
+.form .form-control--wide:has(.form-input:focus) textarea {
+  background: var(--blue-gray-color);
+}
+.form .form-control--wide:has(.form-input:focus) .form-control-accent {
+  height: 500px;
+  margin-top: -500px;
+}
+.form-label {
+  font-family: "playfair-display", "serif";
+  display: grid;
+  justify-items: end;
+  align-items: center;
+  text-align: right;
+}
+.form-radiolist {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
+  padding-left: 16px;
+}
+.form-radiolist .form-label {
+  font-family: "genos-light", "sans-serif", "system-ui";
+  margin-right: 16px;
+}
+
+.form-submit{
+  background: var(--main-color);
+  font-family: "genos-light", "sans-serif", "system-ui";
+  font-size: 32px;
+  padding: 8px;
+    cursor: pointer;
+}
