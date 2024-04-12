@@ -1,6 +1,5 @@
 .vlist {
   margin: 4px;
-  margin-top: 32px;
 }
 .vlist-inner-wrapper {
   list-style: none;
@@ -20,6 +19,7 @@
 }
 .vlist-item {
   font-weight: 900;
+  display: block;
   cursor: pointer;
 }
 .vlist-item-description {
