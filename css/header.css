@@ -1,12 +1,10 @@
 .fullscreen-cover-wrapper {
   background-image: url("../media/jpg/background.jpg");
-  width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .fullscreen-cover-inner-wrapper {
-  width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 60, 0.5);
   display: grid;
