@@ -35,9 +35,8 @@
   padding: 16px;
 }
 @media screen and (max-width: 700px) {
-  .article{
+  .article {
     display: flex;
     flex-flow: column nowrap;
   }
-
 }

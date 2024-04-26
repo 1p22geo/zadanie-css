@@ -62,17 +62,17 @@
   cursor: pointer;
 }
 @media screen and (max-width: 700px) {
-.form .form-control {
-  display: flex;
-  flex-flow: column nowrap;
-  height: fit-content;
-  gap: 2px;
-  margin-bottom: 4px;
-}
-.form .form-control--wide {
-width: unset;
-}
-.form .form-control--wide:has(.form-input:focus) .form-control-accent {
-  display: none;
-}
+  .form .form-control {
+    display: flex;
+    flex-flow: column nowrap;
+    height: fit-content;
+    gap: 2px;
+    margin-bottom: 4px;
+  }
+  .form .form-control--wide {
+    width: unset;
+  }
+  .form .form-control--wide:has(.form-input:focus) .form-control-accent {
+    display: none;
+  }
 }

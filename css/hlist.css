@@ -24,7 +24,7 @@
   outline: 10px solid var(--main-color);
 }
 @media screen and (max-width: 700px) {
-.hlist-inner-wrapper {
-  flex-flow: column nowrap;
-}
+  .hlist-inner-wrapper {
+    flex-flow: column nowrap;
+  }
 }

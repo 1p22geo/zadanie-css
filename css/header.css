@@ -61,9 +61,9 @@
     flex-flow: column nowrap;
     text-align: center;
   }
-.header-link {
-  font-size: 24px;
-}
+  .header-link {
+    font-size: 24px;
+  }
   .header-link--home {
     margin: auto;
   }
