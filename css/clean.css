@@ -5,6 +5,7 @@
   outline: none;
   text-decoration: none;
   color: #000;
+  max-width: 100vw;
   --main-color: #00a1ff;
   --blue-gray-color: #a5c0dd;
   --blue-gray-color--hover: #a0b0c0;

@@ -34,3 +34,10 @@
   font-size: 24px;
   padding: 16px;
 }
+@media screen and (max-width: 700px) {
+  .article{
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+}
