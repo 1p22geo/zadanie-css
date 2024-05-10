@@ -1,9 +1,11 @@
 .main {
+  margin: auto;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   gap: 64px;
   padding: 32px;
+  max-width: 1200px;
 }
 .content-heading {
   font-family: "playfair-display", "serif";
