@@ -11,3 +11,9 @@
   --blue-gray-color--hover: #a0b0c0;
   --white-color: #eeffff;
 }
+::selection{
+  background-color: var(--blue-gray-color--hover);
+}
+::-moz-selection{
+  background-color: var(--blue-gray-color--hover);
+}
