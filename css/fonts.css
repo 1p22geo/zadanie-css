@@ -1,12 +1,15 @@
 @font-face {
   font-family: "playfair-display";
   src: url("../media/ttf/PlayfairDisplay-Regular.ttf");
+  font-display: optional;
 }
 @font-face {
   font-family: "genos-light";
   src: url("../media/ttf/Genos-Light.ttf");
+  font-display: optional;
 }
 @font-face {
   font-family: "genos-bold-italic";
   src: url("../media/ttf/Genos-BoldItalic.ttf");
+  font-display: optional;
 }
