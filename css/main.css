@@ -8,6 +8,8 @@
   max-width: 1200px;
 }
 .content-heading {
+  text-align: center;
+  padding: 2rem;
   font-family: "playfair-display", "serif";
   letter-spacing: 2px;
 }
